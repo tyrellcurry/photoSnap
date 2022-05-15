@@ -7,3 +7,23 @@
 * {
   font-family: 'DM Sans', sans-serif;
 }
+
+@media (min-width: 1024px) {
+  .borderCard {
+    box-shadow: 0 0px 0px 0px #bc7198;
+  }
+  .borderCard:hover {
+    /* border-bottom: 4px solid;
+    border-image: linear-gradient(270deg, #ffc593, #bc7198, #5a77ff) 1; */
+    box-shadow: 0 4px 0px 0px #5a77ff;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 400ms;
+  }
+
+  .storiesContainer {
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 225ms;
+  }
+}

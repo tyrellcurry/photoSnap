@@ -8,7 +8,7 @@ module.exports = {
       dodgerBlue: '#5A77FF',
       pureBlack: '#000000',
       lightGrey: '#DFDFDF',
-      pureWhite: 'FFFFFF',
+      pureWhite: '#FFFFFF',
     },
   },
   plugins: [],
