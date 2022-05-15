@@ -4,11 +4,13 @@ import FeaturesPage from './pages/FeaturesPage/FeaturesPage'
 import StoriesPage from './pages/StoriesPage/StoriesPage'
 import PricingPage from './pages/PricingPage/PricingPage';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
+import Navbar from './components/Navbar/Navbar';
 
 
 function App() {
   return (
     <div>
+      <Navbar/>
       {/*These are the different views that will be rendered based on the URL Route */}
       <Routes>
           <Route path='/' element={<HomePage/>}/>
