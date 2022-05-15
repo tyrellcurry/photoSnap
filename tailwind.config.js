@@ -10,9 +10,7 @@ module.exports = {
       pureBlack: '#000000',
       lightGrey: '#DFDFDF',
       pureWhite: '#FFFFFF',
-      
     },
-  
   },
   plugins: [],
 };

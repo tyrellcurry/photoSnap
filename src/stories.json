@@ -1,0 +1,207 @@
+[
+  {
+    "title": "18 Days Voyage",
+    "images": {
+      "desktop": "./assets/stories/desktop/18-days-voyage.jpg",
+      "mobile": "./assets/stories/mobile/18-days-voyage.jpg",
+      "tablet": "./assets/stories/tablet/18-days-voyage.jpg"
+    },
+    "date": "April 11th 2020",
+    "photographer": "Alexei Borodin",
+    "isHomepage": true,
+    "id": 0
+  },
+  {
+    "title": "The Mountains",
+    "images": {
+      "desktop": "./assets/stories/desktop/mountains.jpg",
+      "mobile": "./assets/stories/mobile/mountains.jpg",
+      "tablet": "./assets/stories/tablet/mountains.jpg"
+    },
+    "date": "April 16th 2020",
+    "photographer": "John Appleseed",
+    "isHomepage": true,
+    "id": 2
+  },
+  {
+    "title": "Sunset Cityscapes",
+    "images": {
+      "desktop": "./assets/stories/desktop/cityscapes.jpg",
+      "mobile": "./assets/stories/mobile/cityscapes.jpg",
+      "tablet": "./assets/stories/tablet/cityscapes.jpg"
+    },
+    "date": "April 14th 2020",
+    "photographer": "Benjamin Cruz",
+    "isHomepage": true,
+    "id": 3
+  },
+  {
+    "title": "Architecturals",
+    "images": {
+      "desktop": "./assets/stories/desktop/architecturals.jpg",
+      "mobile": "./assets/stories/mobile/architecturals.jpg",
+      "tablet": "./assets/stories/tablet/architecturals.jpg"
+    },
+    "date": "April 9th 2020",
+    "photographer": "Samantha Brooke",
+    "isHomepage": true,
+    "id": 4
+  },
+  {
+    "title": "World Tour 2019",
+    "images": {
+      "desktop": "./assets/stories/desktop/world-tour.jpg",
+      "mobile": "./assets/stories/mobile/world-tour.jpg",
+      "tablet": "./assets/stories/tablet/world-tour.jpg"
+    },
+    "date": "April 7th 2020",
+    "photographer": "Timothy Wagner",
+    "isHomepage": false,
+    "id": 5
+  },
+  {
+    "title": "Unforeseen Corners",
+    "images": {
+      "desktop": "./assets/stories/desktop/unforeseen-corners.jpg",
+      "mobile": "./assets/stories/mobile/unforeseen-corners.jpg",
+      "tablet": "./assets/stories/tablet/unforeseen-corners.jpg"
+    },
+    "date": "April 3rd 2020",
+    "photographer": "William Malcolm",
+    "isHomepage": false,
+    "id": 6
+  },
+  {
+    "title": "King on Africa: Part II",
+    "images": {
+      "desktop": "./assets/stories/desktop/king-on-africa.jpg",
+      "mobile": "./assets/stories/mobile/king-on-africa.jpg",
+      "tablet": "./assets/stories/tablet/king-on-africa.jpg"
+    },
+    "date": "March 29th 2020",
+    "photographer": "Tim Hillenburg",
+    "isHomepage": false,
+    "id": 7
+  },
+  {
+    "title": "The Trip to Nowhere",
+    "images": {
+      "desktop": "./assets/stories/desktop/trip-to-nowhere.jpg",
+      "mobile": "./assets/stories/mobile/trip-to-nowhere.jpg",
+      "tablet": "./assets/stories/tablet/trip-to-nowhere.jpg"
+    },
+    "date": "March 21st 2020",
+    "photographer": "Felicia Rourke",
+    "isHomepage": false,
+    "id": 8
+  },
+  {
+    "title": "Rage of The Sea",
+    "images": {
+      "desktop": "./assets/stories/desktop/rage-of-the-sea.jpg",
+      "mobile": "./assets/stories/mobile/rage-of-the-sea.jpg",
+      "tablet": "./assets/stories/tablet/rage-of-the-sea.jpg"
+    },
+    "date": "March 19th 2020",
+    "photographer": "Mohammed Abdul",
+    "isHomepage": false,
+    "id": 9
+  },
+  {
+    "title": "Running Free",
+    "images": {
+      "desktop": "./assets/stories/desktop/running-free.jpg",
+      "mobile": "./assets/stories/mobile/running-free.jpg",
+      "tablet": "./assets/stories/tablet/running-free.jpg"
+    },
+    "date": "March 16th 2020",
+    "photographer": "Michelle",
+    "isHomepage": false,
+    "id": 10
+  },
+  {
+    "title": "Behind the Waves",
+    "images": {
+      "desktop": "./assets/stories/desktop/behind-the-waves.jpg",
+      "mobile": "./assets/stories/mobile/behind-the-waves.jpg",
+      "tablet": "./assets/stories/tablet/behind-the-waves.jpg"
+    },
+    "date": "March 11th 2020",
+    "photographer": "Lamarr Wilson",
+    "isHomepage": false,
+    "id": 11
+  },
+  {
+    "title": "Calm Waters",
+    "images": {
+      "desktop": "./assets/stories/desktop/calm-waters.jpg",
+      "mobile": "./assets/stories/mobile/calm-waters.jpg",
+      "tablet": "./assets/stories/tablet/calm-waters.jpg"
+    },
+    "date": "March 9th 2020",
+    "photographer": "Samantha Brooke",
+    "isHomepage": false,
+    "id": 12
+  },
+  {
+    "title": "The Milky Way",
+    "images": {
+      "desktop": "./assets/stories/desktop/milky-way.jpg",
+      "mobile": "./assets/stories/mobile/milky-way.jpg",
+      "tablet": "./assets/stories/tablet/milky-way.jpg"
+    },
+    "date": "March 5th 2020",
+    "photographer": "Benjamin Cruz",
+    "isHomepage": false,
+    "id": 13
+  },
+  {
+    "title": "Night at The Dark Forest",
+    "images": {
+      "desktop": "./assets/stories/desktop/dark-forest.jpg",
+      "mobile": "./assets/stories/mobile/dark-forest.jpg",
+      "tablet": "./assets/stories/tablet/dark-forest.jpg"
+    },
+    "date": "March 4th 2020",
+    "photographer": "Mohammed Abdul",
+    "isHomepage": false,
+    "id": 14
+  },
+  {
+    "title": "Somwarpet’s Beauty",
+    "images": {
+      "desktop": "./assets/stories/desktop/somwarpet.jpg",
+      "mobile": "./assets/stories/mobile/somwarpet.jpg",
+      "tablet": "./assets/stories/tablet/somwarpet.jpg"
+    },
+    "date": "March 1st 2020",
+    "photographer": "Michelle",
+    "isHomepage": false,
+    "id": 15
+  },
+  {
+    "title": "Land of Dreams",
+    "images": {
+      "desktop": "./assets/stories/desktop/land-of-dreams.jpg",
+      "mobile": "./assets/stories/mobile/land-of-dreams.jpg",
+      "tablet": "./assets/stories/tablet/land-of-dreams.jpg"
+    },
+    "date": "February 25th 2020",
+    "photographer": "William Malcolm",
+    "isHomepage": false,
+    "id": 16
+  },
+  {
+    "title": "HAZY FULL MOON OF APPALACHIA",
+    "images": {
+      "desktop": "./assets/stories/desktop/moon-of-appalacia.jpg",
+      "mobile": "./assets/stories/mobile/moon-of-appalacia.jpg",
+      "tablet": "./assets/stories/tablet/moon-of-appalacia.jpg"
+    },
+    "date": "March 2nd 2020",
+    "photographer": "John Appleseed",
+    "description": "The dissected plateau area, while not actually made up of geological mountains, is popularly called \"mountains\", especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.",
+    "isMainCard": true,
+    "id": 17
+  }
+]
