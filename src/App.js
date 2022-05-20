@@ -5,6 +5,7 @@ import StoriesPage from './pages/StoriesPage/StoriesPage'
 import PricingPage from './pages/PricingPage/PricingPage';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           {/*If a route is passed in that is not recognized (for example "/blahblah").. the Not Found Page is displayed*/}
           <Route path="*" element={<NotFoundPage />} /> {/*  <---- Possible Option: We could redirect the user back to the home page */}
       </Routes>
+      <Footer/>
     </div>
   );
 }

@@ -4,6 +4,7 @@ import LogoBrand from '../LogoBrand';
 import {motion} from 'framer-motion';
 import {ReactComponent as MenuIcon} from '../../assets/shared/mobile/menu.svg';
 import {ReactComponent as CloseIcon} from '../../assets/shared/mobile/close.svg';
+import {ReactComponent as Logo} from '../../assets/shared/desktop/logo.svg';
 
 const Navbar = () => {
   const [navMenuShow, setNavMenuShown] = useState(false);
@@ -33,7 +34,7 @@ const Navbar = () => {
 
   return (
     <nav className="relative flex items-center justify-between md:justify-around p-4 z-50">
-      <LogoBrand />
+      <Logo/>
       <ul className="hidden md:flex md: space-x-12">
         <li className=" cursor-pointer uppercase text-sm tracking-wider font-bold">
           <Link to="/stories">Stories</Link>
