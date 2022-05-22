@@ -16,11 +16,11 @@ const Footer = () => {
             {/** TODO: Not sure why the icons have a gradient background */}
             <div className='social-icons flex space-x-2 order-2 
                              md:order-6 md:justify-self-start'>
-                <FacebookIcon className='cursor-pointer' />
-                <YoutubeIcon className='cursor-pointer' />
-                <TwitterIcon className='cursor-pointer' />
-                <PinterestIcon className='cursor-pointer' />
-                <InstagramIcon className='cursor-pointer' />
+                <FacebookIcon className='cursor-pointer fill-slate-50' />
+                <YoutubeIcon className='cursor-pointer fill-slate-50' />
+                <TwitterIcon className='cursor-pointer fill-slate-50' />
+                <PinterestIcon className='cursor-pointer fill-slate-50' />
+                <InstagramIcon className='cursor-pointer fill-slate-50' />
             </div>
             <ul className='page-links flex flex-col order-3 text-pureWhite text-center space-y-4 pt-6 
                            md:flex-row md:text-left md:order-3 md:items-baseline md:space-x-4 md:pt-0 md:space-y-0 md:justify-self-start '>
