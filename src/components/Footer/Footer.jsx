@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import LogoBrand from '../LogoBrand';
 import {ReactComponent as FacebookIcon} from '../../assets/shared/desktop/facebook.svg';
 import {ReactComponent as YoutubeIcon} from '../../assets/shared/desktop/youtube.svg';
@@ -16,24 +17,33 @@ const Footer = () => {
           <div className="flex-container lg:flex lg:flex-row">
             <div className="desktop-separation lg:pr-14">
               <div className="title flex justify-center py-2 md:justify-start lg:pt-0">
-                <LogoBrand fontColor="text-pureWhite" />
-                {/* Gradient not working */}
+                <Link to="/">
+                  <LogoBrand fontColor="text-pureWhite" />
+                </Link>
               </div>
               <div className="reverse flex flex-col-reverse md:flex-col">
                 <div className="nav flex justify-center py-4 lg:hidden">
                   <ul className="text-pureWhite flex flex-col text-center md:flex-row">
-                    <li className=" text-xs font-medium tracking-x-wide uppercase cursor-pointer pb-4 md:pr-2">
-                      Home
-                    </li>
-                    <li className=" text-xs font-medium tracking-x-wide uppercase cursor-pointer pb-4 md:pr-2">
-                      Stories
-                    </li>
-                    <li className=" text-xs font-medium tracking-x-wide uppercase pb-4 md:pr-2">
-                      Features
-                    </li>
-                    <li className=" text-xs font-medium tracking-x-wide uppercase">
-                      Pricing
-                    </li>
+                    <Link to="/">
+                      <li className=" text-xs font-medium tracking-x-wide uppercase cursor-pointer pb-4 md:pr-2">
+                        Home
+                      </li>
+                    </Link>
+                    <Link to="/stories">
+                      <li className=" text-xs font-medium tracking-x-wide uppercase cursor-pointer pb-4 md:pr-2">
+                        Stories
+                      </li>
+                    </Link>
+                    <Link to="/features">
+                      <li className=" text-xs font-medium tracking-x-wide uppercase cursor-pointer pb-4 md:pr-2">
+                        Features
+                      </li>
+                    </Link>
+                    <Link to="/pricing">
+                      <li className=" text-xs font-medium tracking-x-wide uppercase cursor-pointer">
+                        Pricing
+                      </li>
+                    </Link>
                   </ul>
                 </div>
                 <div className="socials flex justify-center py-6 md:justify-start lg:pt-20 lg:pb-0">
@@ -47,18 +57,26 @@ const Footer = () => {
             </div>
             <div className="hidden desktop-nav lg:flex lg:items-center">
               <ul className="text-pureWhite flex flex-col text-center lg:text-left">
-                <li className=" text-xs font-medium tracking-x-wide uppercase cursor-pointer pb-4 md:pr-2 hover:text-gray-500">
-                  Home
-                </li>
-                <li className=" text-xs font-medium tracking-x-wide uppercase cursor-pointer pb-4 md:pr-2 hover:text-gray-500">
-                  Stories
-                </li>
-                <li className=" text-xs font-medium tracking-x-wide uppercase cursor-pointer pb-4 md:pr-2 hover:text-gray-500">
-                  Features
-                </li>
-                <li className=" text-xs font-medium tracking-x-wide uppercase cursor-pointer hover:text-gray-500">
-                  Pricing
-                </li>
+                <Link to="/">
+                  <li className=" text-xs font-medium tracking-x-wide uppercase cursor-pointer pb-4 md:pr-2 hover:text-gray-500">
+                    Home
+                  </li>
+                </Link>
+                <Link to="/stories">
+                  <li className=" text-xs font-medium tracking-x-wide uppercase cursor-pointer pb-4 md:pr-2 hover:text-gray-500">
+                    Stories
+                  </li>
+                </Link>
+                <Link to="/features">
+                  <li className=" text-xs font-medium tracking-x-wide uppercase cursor-pointer pb-4 md:pr-2 hover:text-gray-500">
+                    Features
+                  </li>
+                </Link>
+                <Link to="/pricing">
+                  <li className=" text-xs font-medium tracking-x-wide uppercase cursor-pointer hover:text-gray-500">
+                    Pricing
+                  </li>
+                </Link>
               </ul>
             </div>
           </div>
