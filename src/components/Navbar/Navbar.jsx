@@ -36,18 +36,18 @@ const Navbar = () => {
     <nav className="relative flex items-center justify-between px-6 py-6 z-50 md:justify-around">
       <Link to="/"><Logo className=""/></Link>
       <ul className="hidden md:flex md: space-x-12">
-        <li className=" cursor-pointer uppercase text-sm tracking-wider font-bold lg:text-lg">
+        <li className=" cursor-pointer uppercase text-sm tracking-wider font-bold lg:text-md">
           <Link to="/stories">Stories</Link>
         </li>
-        <li className=" cursor-pointer uppercase text-sm tracking-wider font-bold lg:text-lg">
+        <li className=" cursor-pointer uppercase text-sm tracking-wider font-bold lg:text-md">
           <Link to="/features">Features</Link>
         </li>
-        <li className=" cursor-pointer uppercase text-sm tracking-wider font-bold lg:text-lg">
+        <li className=" cursor-pointer uppercase text-sm tracking-wider font-bold lg:text-md">
           <Link to="/pricing">Pricing</Link>
         </li>
       </ul>
       <div className=" hidden md:block">
-        <button className=" bg-pureBlack text-pureWhite px-8 py-3 text-sm font-bold uppercase lg:text-lg">
+        <button className=" bg-pureBlack text-pureWhite px-8 py-3 text-sm font-bold uppercase lg:text-md">
           Get An Invite
         </button>
       </div>
