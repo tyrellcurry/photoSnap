@@ -3,6 +3,7 @@ import StoriesCards from '../../components/StoriesCards';
 import storiesItemsData from '../../stories.json';
 import StoriesContainer from '../../components/StoriesContainer';
 import {ReactComponent as ArrowIcon} from '../../assets/shared/desktop/arrow.svg';
+import FeatureItem from '../../components/FeatureItem';
 
 const HomePage = () => {
   return (
@@ -61,6 +62,23 @@ const HomePage = () => {
             />
           ))}
       </StoriesContainer>
+
+      <section className='flex flex-col px-10 py-16 space-y-12 lg:flex-row lg:items-center lg:space-y-0 lg:py-24'>
+            <FeatureItem 
+              icon="responsive" 
+              title="100% Responsive" 
+              infomation="No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen."
+            />
+            <FeatureItem 
+              icon="noLimit" 
+              title="No Photo Upload Speed" 
+              infomation="Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go."
+            />
+            <FeatureItem
+              icon="embed" 
+              title="Available to Embed" 
+              infomation="Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. "/>
+      </section>
     </>
   );
 };
