@@ -34,20 +34,20 @@ const Navbar = () => {
 
   return (
     <nav className="relative flex items-center justify-between px-6 py-6 z-50 md:justify-around">
-      <Logo/>
+      <Logo className=""/>
       <ul className="hidden md:flex md: space-x-12">
-        <li className=" cursor-pointer uppercase text-sm tracking-wider font-bold">
+        <li className=" cursor-pointer uppercase text-sm tracking-wider font-bold lg:text-lg">
           <Link to="/stories">Stories</Link>
         </li>
-        <li className=" cursor-pointer uppercase text-sm tracking-wider font-bold">
+        <li className=" cursor-pointer uppercase text-sm tracking-wider font-bold lg:text-lg">
           <Link to="/features">Features</Link>
         </li>
-        <li className=" cursor-pointer uppercase text-sm tracking-wider font-bold">
+        <li className=" cursor-pointer uppercase text-sm tracking-wider font-bold lg:text-lg">
           <Link to="/pricing">Pricing</Link>
         </li>
       </ul>
       <div className=" hidden md:block">
-        <button className=" bg-pureBlack text-pureWhite px-8 py-3 text-sm font-bold uppercase">
+        <button className=" bg-pureBlack text-pureWhite px-8 py-3 text-sm font-bold uppercase lg:text-lg">
           Get An Invite
         </button>
       </div>
