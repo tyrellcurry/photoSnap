@@ -15,7 +15,7 @@ const HomePage = () => {
           <h1 className='text-3xl tracking-wide uppercase text-left font-bold md:text-[2.5rem] md:tracking-[0.260625rem] md:leading-10'>Create and Share your Photo Stories.</h1>
           <p className='text-base font-normal opacity-60 leading-6 mt-4 lg:mt-6'>Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.</p>
           <div className='link-container flex items-center space-x-3 mt-4 cursor-pointer lg:mt-8 '>
-            <p className=' uppercase tracking-wider text-xs'>Get an Invite</p>
+            <p className=' uppercase tracking-wider text-xs hover:underline'>Get an Invite</p>
             <ArrowIcon className=' stroke-pureWhite'/>
           </div>
         </div>
@@ -28,7 +28,7 @@ const HomePage = () => {
           <h1 className=' text-3xl uppercase tracking-wide  text-left font-bold md:text-[2.5rem] md:tracking-[0.260625rem] md:leading-10'>Beautiful Stories Every Time</h1>
           <p className='text-base opacity-60 leading-6 mt-4 lg:mt-6'>We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.</p>
           <div className='link-container flex items-center space-x-3 mt-4 cursor-pointer lg:mt-8 '>
-            <p className=' uppercase tracking-wider text-xs'>View the Stories</p>
+            <p className=' uppercase tracking-wider text-xs hover:underline'>View the Stories</p>
             <ArrowIcon className=' stroke-black'/>
           </div>
         </div>
@@ -41,7 +41,7 @@ const HomePage = () => {
           <h1  className='text-3xl tracking-wide uppercase text-left font-bold md:text-[2.5rem] md:tracking-[0.260625rem] md:leading-10'>Designed for Everyone</h1>
           <p className='text-base opacity-60 leading-6 mt-4 lg:mt-6'>Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it. </p>
           <div className='link-container flex items-center space-x-3 mt-4 cursor-pointer lg:mt-8 '>
-            <p className=' uppercase tracking-wider text-xs'>View the Stories</p>
+            <p className=' uppercase tracking-wider text-xs hover:underline'>View the Stories</p>
             <ArrowIcon className=' stroke-black'/>
           </div>
         </div>
