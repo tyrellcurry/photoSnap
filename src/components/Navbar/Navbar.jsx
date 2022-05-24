@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <nav className="relative flex items-center justify-between px-6 py-6 z-50 md:justify-around">
-      <Logo className=""/>
+      <Link to="/"><Logo className=""/></Link>
       <ul className="hidden md:flex md: space-x-12">
         <li className=" cursor-pointer uppercase text-sm tracking-wider font-bold lg:text-lg">
           <Link to="/stories">Stories</Link>
