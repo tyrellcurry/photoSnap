@@ -16,6 +16,9 @@ module.exports = {
         lightGrey: '#DFDFDF',
         pureWhite: '#FFFFFF',
       },
+      margin: {
+        'x-l': '50%',
+      },
     },
   },
   plugins: [],
