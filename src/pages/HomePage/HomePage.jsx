@@ -2,7 +2,7 @@ import React from 'react';
 import StoriesCards from '../../components/StoriesCards';
 import storiesItemsData from '../../stories.json';
 import StoriesContainer from '../../components/StoriesContainer';
-import { ReactComponent as ArrowIcon } from '../../assets/shared/desktop/arrow.svg';
+import {ReactComponent as ArrowIcon} from '../../assets/shared/desktop/arrow.svg';
 
 const HomePage = () => {
   return (
@@ -18,7 +18,7 @@ const HomePage = () => {
             <p className=' uppercase tracking-wider text-xs'>Get an Invite</p>
             <ArrowIcon className=' stroke-pureWhite'/>
           </div>
-        </div> 
+        </div>
       </section>
       <section className='section-2 md:flex '>
         <img src="../../assets/home/mobile/beautiful-stories.jpg" alt="Laptop On Desk" className='md:hidden' />

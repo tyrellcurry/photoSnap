@@ -1,6 +1,11 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    letterSpacing: {
+      'x-med': '0.15em',
+      'x-wide': '0.175em',
+    },
+
     extend: {
       colors: {
         transparent: 'transparent',
@@ -12,7 +17,6 @@ module.exports = {
         pureWhite: '#FFFFFF',
       },
     },
-    
   },
   plugins: [],
 };
