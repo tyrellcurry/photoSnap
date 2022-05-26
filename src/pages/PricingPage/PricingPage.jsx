@@ -555,6 +555,7 @@ const PricingPage = () => {
           </div>
         </section>
       </main>
+      {/* TODO: NEED TO ADD BETA BANNER */}
     </>
   );
 };
