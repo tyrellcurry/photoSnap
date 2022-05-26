@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     letterSpacing: {
       'x-sm': '0.08em',
+      'x-normal': '0em',
       'x-med': '0.15em',
       'x-wide': '0.175em',
     },
