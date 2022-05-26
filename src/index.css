@@ -2,15 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
 * {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
+  -webkit-tap-highlight-color: transparent; /* removing blue highlights on click */
 }
 
 /* SVG Footer Social Icon Hover Gradients */
 
-//Facebook hover state doesnt work for some reason unless i pull this fill:white value here...
+/* Facebook hover state doesnt work for some reason unless i pull this fill:white value here... */
 #fb {
   fill: white;
 }
