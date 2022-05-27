@@ -18,9 +18,17 @@ module.exports = {
         medGrey: '#DFDFDF',
         pureWhite: '#FFFFFF',
       },
+<<<<<<< HEAD
       margin: {
         'x-l': '50%',
       },
+=======
+      backgroundImage:{
+        'mobile-beta': "url('./assets/shared/mobile/bg-beta.jpg')",
+        'tablet-beta': "url('./assets/shared/tablet/bg-beta.jpg')",
+        'desktop-beta': "url('./assets/shared/desktop/bg-beta.jpg')"
+      }
+>>>>>>> feature-page
     },
   },
   plugins: [],

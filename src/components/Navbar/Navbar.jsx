@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
-import LogoBrand from '../LogoBrand';
 import {motion} from 'framer-motion';
 import {ReactComponent as MenuIcon} from '../../assets/shared/mobile/menu.svg';
 import {ReactComponent as CloseIcon} from '../../assets/shared/mobile/close.svg';
