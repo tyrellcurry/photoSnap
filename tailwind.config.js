@@ -16,6 +16,11 @@ module.exports = {
         lightGrey: '#DFDFDF',
         pureWhite: '#FFFFFF',
       },
+      backgroundImage:{
+        'mobile-beta': "url('./assets/shared/mobile/bg-beta.jpg')",
+        'tablet-beta': "url('./assets/shared/tablet/bg-beta.jpg')",
+        'desktop-beta': "url('./assets/shared/desktop/bg-beta.jpg')"
+      }
     },
   },
   plugins: [],
