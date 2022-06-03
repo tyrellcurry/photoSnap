@@ -21,11 +21,13 @@ module.exports = {
       margin: {
         'x-l': '50%',
       },
-      backgroundImage:{
+      backgroundImage: {
         'mobile-beta': "url('./assets/shared/mobile/bg-beta.jpg')",
         'tablet-beta': "url('./assets/shared/tablet/bg-beta.jpg')",
-        'desktop-beta': "url('./assets/shared/desktop/bg-beta.jpg')"
-      }
+        'desktop-beta': "url('./assets/shared/desktop/bg-beta.jpg')",
+        'hazy-tablet': "url('./assets/stories/tablet/moon-of-appalacia.jpg')",
+        'hazy-tablet': "url('./assets/stories/desktop/moon-of-appalacia.jpg')",
+      },
     },
   },
   plugins: [],

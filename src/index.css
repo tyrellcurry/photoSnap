@@ -37,6 +37,14 @@
 }
 /* End of SVG Footer Social Icon Hover Gradients  */
 
+.title_leading {
+  line-height: 6rem;
+}
+
+.padding_hazy {
+  padding-top: 66%;
+}
+
 @media (min-width: 1024px) {
   .borderCard {
     box-shadow: 0 0px 0px 0px #bc7198;

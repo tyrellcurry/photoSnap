@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {ReactComponent as ArrowIcon} from '../../assets/shared/desktop/arrow.svg';
 
 const PricingPage = () => {
   const [isActive, setActive] = useState(false);
@@ -9,7 +10,7 @@ const PricingPage = () => {
 
   return (
     <>
-      <main>
+      <main className="pb-10 md:pb-20">
         <section className="banner bg-pureBlack sm:grid sm:grid-cols-3 sm:place-items-center md:grid-cols-2">
           <div className="image sm:w-full md:h-full">
             <img
@@ -35,7 +36,7 @@ const PricingPage = () => {
             <h1 className="pb-4 uppercase tracking-x-wide font-semibold text-3xl sm:text-4xl">
               Pricing
             </h1>
-            <p className="text-gray-400 leading-8 text-md md:leading-6 lg:text-lg">
+            <p className="text-gray-400 leading-8 text-md md:leading-6 lg:text-lg xl:w-11/12">
               Create a your stories, Photosnap is a platform for photographers
               and visual storytellers. It’s the simple way to create and share
               your photos.
@@ -191,7 +192,7 @@ const PricingPage = () => {
           </div>
         </section>
         <section>
-          <div className="hidden md:block header uppercase text-center text-5xl font-semibold tracking-x-sm pt-24 pb-10">
+          <div className="hidden md:block header uppercase text-center text-5xl font-semibold tracking-x-sm pt-20 pb-10">
             <h2>compare</h2>
           </div>
           <div className="features px-8 pt-10 lg:px-32 xl:px-60">
@@ -556,6 +557,21 @@ const PricingPage = () => {
         </section>
       </main>
       {/* TODO: NEED TO ADD BETA BANNER */}
+      <section
+        className="beta-section flex flex-col bg-mobile-beta bg-cover bg-no-repeat py-12 px-6 
+                            md:bg-tablet-beta md:flex-row md:px-6 md:py-24 md:justify-between
+                            lg:bg-desktop-beta lg:justify-around lg:py-32 "
+      >
+        <h2 className=" text-3xl font-bold uppercase text-pureWhite tracking-x-med md:text-4xl md:w-1/2 lg:w-1/3">
+          We’re in beta. Get your invite today!
+        </h2>
+        <div className="link-container flex items-center space-x-3 mt-4 cursor-pointer lg:mt-8 ">
+          <p className=" uppercase text-pureWhite tracking-x-med text-xs hover:underline lg:text-sm">
+            Get an Invite
+          </p>
+          <ArrowIcon className=" stroke-pureWhite" />
+        </div>
+      </section>
     </>
   );
 };

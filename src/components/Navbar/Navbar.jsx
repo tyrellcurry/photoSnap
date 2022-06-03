@@ -13,7 +13,7 @@ const Navbar = () => {
     opened: {
       transition: {
         when: 'beforeChildren',
-        staggerChildren: 0.7,
+        staggerChildren: 0.65,
       },
     },
     closed: {
@@ -33,7 +33,9 @@ const Navbar = () => {
 
   return (
     <nav className="relative flex items-center justify-between px-6 py-6 z-50 md:justify-around">
-      <Link to="/"><Logo className=""/></Link>
+      <Link to="/">
+        <Logo className="" />
+      </Link>
       <ul className="hidden md:flex md: space-x-12">
         <li className=" cursor-pointer uppercase text-sm tracking-wider font-bold hover:text-slate-400 lg:text-md">
           <Link to="/stories">Stories</Link>
@@ -51,7 +53,7 @@ const Navbar = () => {
         </button>
       </div>
       <motion.div
-        className="block md:hidden"
+        className="flex md:hidden h-4 w-4 cursor-pointer items-center"
         onClick={() => setNavMenuShown(!navMenuShow)}
         whileHover={{scale: 1.1}}
         whileTap={{scale: 0.9}}
