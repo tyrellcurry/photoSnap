@@ -1,6 +1,6 @@
 # Photosnap
 
-## Checkout The Live Project: [HERE!](https://entertainment-app-tyrell.netlify.app/)
+## Checkout The Live Project: [HERE!](https://photosnap-tc.netlify.app/)
 
 ## Table of contents
 
@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Netlify](https://entertainment-app-tyrell.netlify.app/)
+- Live Site URL: [Netlify](https://photosnap-tc.netlify.app/)
 
 ## My process
 
@@ -92,6 +92,15 @@ Users should be able to:
       />
     ));
 }
+```
+
+#### Using state to toggle between classes for tailwind styling and displaying text
+
+```js
+const [isActive, setActive] = useState(false);
+
+const toggleClass = () => {
+  setActive(!isActive);
 ```
 
 ### Continued development
