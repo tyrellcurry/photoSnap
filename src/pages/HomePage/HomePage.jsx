@@ -11,7 +11,7 @@ const HomePage = () => {
       <section className="section-1 md:grid md:grid-cols-5">
         <div className="md:order-2 md:col-span-2 lg:col-span-3">
           <img
-            src="../../assets/home/mobile/create-and-share.jpg"
+            src="/assets/home/desktop/create-and-share.jpg"
             alt="Man standing on pier"
             className="md:hidden w-auto h-auto min-h-full min-w-full"
           />

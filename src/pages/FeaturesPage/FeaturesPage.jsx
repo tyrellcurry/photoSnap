@@ -5,33 +5,6 @@ import {ReactComponent as ArrowIcon} from '../../assets/shared/desktop/arrow.svg
 const FeaturesPage = () => {
   return (
     <>
-      {/* <section className="section-1 md:flex ">
-        <img
-          src="../../assets/features/mobile/hero.jpg"
-          alt="Person Holding Camera"
-          className="md:order-2 md:hidden w-full"
-        />
-        <img
-          src="../../assets/features/tablet/hero.jpg"
-          alt="Person Holding Camera"
-          className="md:order-2 hidden md:block lg:hidden w-full"
-        />
-        <img
-          src="../../assets/features/desktop/hero.jpg"
-          alt="Person Holding Camera"
-          className="md:order-2 hidden md:hidden lg:block w-full"
-        />
-        <div className="section-paragraph py-20 px-8 bg-black text-pureWhite md:order-1 md:py-44 lg:px-16 xl:px-24 md:flex md:flex-col md:justify-center">
-          <h1 className="text-3xl tracking-x-med uppercase text-left font-bold md:text-[2.5rem] md:tracking-[0.260625rem] md:leading-10">
-            Features
-          </h1>
-          <p className="text-base md:text-lg font-normal opacity-60 leading-6 mt-4 md:w-11/12 xl:w-9/12 lg:mt-6">
-            We make sure all of our features are designed to be loved by every
-            aspiring and even professional photograpers who wanted to share
-            their stories.
-          </p>
-        </div>
-      </section> */}
       <section className="banner bg-pureBlack sm:grid sm:grid-cols-3 sm:place-items-center md:grid-cols-2">
         <div className="image sm:w-full md:h-full">
           <img

@@ -10,8 +10,8 @@ const StoriesPage = () => {
       <header>
         <div className="img_container">
           <img
-            src="../../assets/stories/tablet/moon-of-appalacia.jpg"
-            alt=""
+            src="./assets/stories/desktop/moon-of-appalacia.jpg"
+            alt="Moon glowing over mountain tops"
             className="block w-full object-cover md:hidden"
           />
         </div>
